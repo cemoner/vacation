@@ -1,6 +1,5 @@
 package com.company;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -16,7 +15,7 @@ public class Vacation {
         Collections.addAll(this.people, people);
     }
 
-    public void expenseEachCalculator(double @NotNull ... expenses) {
+    public void expenseEachCalculator(double... expenses) {
         double sum = 0;
         for (double expense : expenses) {
             differences.add(expense);
